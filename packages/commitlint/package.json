@@ -1,6 +1,22 @@
 {
   "name": "@nx-extras/commitlint",
   "version": "0.0.1",
+  "description": "Nx generator for Conventional Commitlint.",
   "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksojat/nx-extras/tree/main/packages/commitlint"
+  },
+  "author": {
+    "name": "Krešimir Šojat"
+  },
+  "keywords": [
+    "nx",
+    "commitlint",
+    "conventional"
+  ],
   "generators": "./generators.json"
 }
