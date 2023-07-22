@@ -1,4 +1,4 @@
-# NxExtras
+# MoreNx
 
 Set of additional [Nx](https://nx.dev/) plugins.
 
