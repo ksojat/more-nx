@@ -20,7 +20,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-extras/commitlint": [
+      "@more-nx/commitlint": [
         "packages/commitlint/src/index.ts"
       ]
     }
