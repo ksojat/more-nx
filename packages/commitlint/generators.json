@@ -1,0 +1,19 @@
+{
+  "generators": {
+    "config": {
+      "factory": "./src/generators/config/generator",
+      "schema": "./src/generators/config/schema.json",
+      "description": "Generate configuration"
+    },
+    "vsc-extensions": {
+      "factory": "./src/generators/vsc-extensions/generator",
+      "schema": "./src/generators/vsc-extensions/schema.json",
+      "description": "Add recommended extensions"
+    },
+    "setup": {
+      "factory": "./src/generators/setup/generator",
+      "schema": "./src/generators/setup/schema.json",
+      "description": "Generate configurations and add extensions"
+    }
+  }
+}
