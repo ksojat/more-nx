@@ -12,21 +12,14 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@more-nx/commitlint": [
-        "packages/commitlint/src/index.ts"
-      ]
+      "@more-nx/commitlint": ["packages/commitlint/src/index.ts"],
+      "@more-nx/husky": ["packages/husky/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

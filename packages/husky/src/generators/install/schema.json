@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "Install",
+  "title": "Install Husky. NOTE: Does not work in the `--dry-run` mode.",
+  "type": "object",
+  "properties": {
+    "formatWrite": {
+      "type": "boolean",
+      "description": "Overwrite un-formatted files",
+      "default": true
+    },
+    "lint": {
+      "type": "boolean",
+      "description": "Lint affected packages",
+      "default": true
+    },
+    "test": {
+      "type": "boolean",
+      "description": "Test affected packages",
+      "default": true
+    }
+  }
+}
