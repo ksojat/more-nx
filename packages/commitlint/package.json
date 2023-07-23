@@ -1,6 +1,6 @@
 {
   "name": "@more-nx/commitlint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nx generator for Conventional Commitlint.",
   "type": "commonjs",
   "publishConfig": {
