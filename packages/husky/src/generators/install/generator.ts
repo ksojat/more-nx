@@ -91,7 +91,7 @@ export async function installGenerator(
   checkDryRun();
 
   const hooks: Hook[] = [
-    [options.formatWrite ?? true, 'npx nx format:write uncommitted'],
+    [options.formatCheck ?? true, 'npx nx format:check uncommitted'],
     [options.lint ?? true, 'npx nx affected -t lint'],
     [options.test ?? true, 'npx nx affected -t test'],
   ];

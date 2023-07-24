@@ -1,9 +1,5 @@
 # MoreNx
 
-[toc]
-
-## Intro
-
 Set of additional [Nx](https://nx.dev/) plugins.
 
 ## Conventional Commitlint

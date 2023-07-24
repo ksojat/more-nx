@@ -4,9 +4,9 @@
   "title": "Install Husky. NOTE: Does not work in the `--dry-run` mode.",
   "type": "object",
   "properties": {
-    "formatWrite": {
+    "formatCheck": {
       "type": "boolean",
-      "description": "Overwrite un-formatted files",
+      "description": "Check for un-formatted files",
       "default": true
     },
     "lint": {

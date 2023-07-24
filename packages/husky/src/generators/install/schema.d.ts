@@ -1,5 +1,5 @@
 export interface InstallGeneratorSchema {
-  formatWrite?: boolean;
+  formatCheck?: boolean;
   lint?: boolean;
   test?: boolean;
 }
