@@ -2,14 +2,14 @@ import { updateJson, formatFiles, generateFiles, Tree } from '@nx/devkit';
 import * as path from 'path';
 
 function updateExtensions(tree: Tree) {
-  const extensions = '.vscode/extensions.json';
+  const extensionsFile = '.vscode/extensions.json';
   const recommended = [
     'nrwl.angular-console',
     'vivaxy.vscode-conventional-commits',
   ];
 
-  if (tree.exists(extensions)) {
-    updateJson(tree, extensions, (json) => {
+  if (tree.exists(extensionsFile)) {
+    updateJson(tree, extensionsFile, (json) => {
       json = json ?? {};
       json.recommendations = json.recommendations ?? [];
 

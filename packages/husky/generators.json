@@ -4,6 +4,16 @@
       "factory": "./src/generators/install/generator",
       "schema": "./src/generators/install/schema.json",
       "description": "install generator"
+    },
+    "vsc-tasks": {
+      "factory": "./src/generators/vsc-tasks/generator",
+      "schema": "./src/generators/vsc-tasks/schema.json",
+      "description": "vsc-tasks generator"
+    },
+    "setup": {
+      "factory": "./src/generators/setup/generator",
+      "schema": "./src/generators/setup/schema.json",
+      "description": "setup generator"
     }
   }
 }

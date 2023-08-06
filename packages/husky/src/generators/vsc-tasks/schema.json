@@ -1,0 +1,5 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "VscTasks",
+  "title": "Add Visual Studio Code tasks to register Husky each time project folder is open"
+}
